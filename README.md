@@ -10,7 +10,7 @@ Example project for image picker using camera and gallery also cropping.
 // In async method: 
 
 var image = await ImagePicker.pickImage(
-  source: type == 1 ? ImageSource.camera : ImageSource.gallery,
+  source: ImageSource.gallery,
   imageQuality: 50
 );
 
