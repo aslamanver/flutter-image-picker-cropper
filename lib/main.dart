@@ -103,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
           );
         },
         tooltip: 'Pick Image',
-        child: Icon(Icons.add),
+        child: Icon(Icons.camera),
       ),
     );
   }
